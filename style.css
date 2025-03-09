@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+
+
+    background-color: pink
+}
+
+.container {
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgb(68, 82, 83);
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color:white ;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="email"], input[type="password"],input[type="confirmpassword"],input[type="phone"] {
+    width: 380px;
+    height:15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+input[type="submit"],
+input[type="reset"]{
+    background-color: rgb(49, 200, 251);
+    padding:5px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 5px;
+
+}
+
